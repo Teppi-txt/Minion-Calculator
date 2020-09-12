@@ -13,5 +13,4 @@ def product_reciever(product_list, fuel_percentage):
     return profit + one_percent_profit * fuel_percentage
 
 for i in minion_info.minion_data:
-    if product_reciever(minion_info.minion_data[i], 0) > 46_000:
-        print(str(i) + " : " + str(int(product_reciever(minion_info.minion_data[i], 0))))
+     print(str(i) + " : " + str(int(product_reciever(minion_info.minion_data[i], 0))))
